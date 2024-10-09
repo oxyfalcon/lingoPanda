@@ -8,6 +8,7 @@ class NewsAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       backgroundColor: Theme.of(context).colorScheme.surfaceContainer,
       elevation: 0,
+      surfaceTintColor: Colors.transparent,
       automaticallyImplyLeading: false,
       title: Padding(
         padding: const EdgeInsets.only(left: 12),

@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "pingolearn",
+            "name": "lingoPanda",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "pingolearn (profile mode)",
+            "name": "lingoPanda (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "pingolearn (release mode)",
+            "name": "lingoPanda (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
