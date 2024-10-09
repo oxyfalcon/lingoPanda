@@ -1,4 +1,4 @@
-# pingolearn
+# LingoPanda
 
 A new Flutter project.
 
