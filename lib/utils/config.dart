@@ -11,7 +11,7 @@ class Config {
   final GlobalKey<ScaffoldMessengerState> scaffoldMessengerKey =
       GlobalKey<ScaffoldMessengerState>();
 
-  static const String newsApiKey = "ed59c6a56ade4ce885f55ed6f08b8a84";
+  static const String newsApiKey = "188c92a89faa441aad00d5e70a862920";
 
   void showSnackBar(SnackBar snackBar) {
     if (scaffoldMessengerKey.currentState != null) {
