@@ -1,4 +1,4 @@
-import 'package:pingolearn/utils/extension.dart';
+import 'package:lingopanda/utils/extension.dart';
 
 class Validator {
   static String? validEmail(String? val) {

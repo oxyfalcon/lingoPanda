@@ -2,14 +2,14 @@ import 'package:dio/dio.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pingolearn/model/api/api_service.dart';
-import 'package:pingolearn/model/api_status_model.dart';
-import 'package:pingolearn/model/news_model.dart';
-import 'package:pingolearn/utils/config.dart';
-import 'package:pingolearn/view/viewUtils/news_card.dart';
-import 'package:pingolearn/view/viewUtils/signout_button.dart';
-import 'package:pingolearn/viewModel/form_validator_provider.dart';
-import 'package:pingolearn/viewModel/future_provider.dart';
+import 'package:lingopanda/model/api/api_service.dart';
+import 'package:lingopanda/model/api_status_model.dart';
+import 'package:lingopanda/model/news_model.dart';
+import 'package:lingopanda/utils/config.dart';
+import 'package:lingopanda/view/viewUtils/news_card.dart';
+import 'package:lingopanda/view/viewUtils/signout_button.dart';
+import 'package:lingopanda/viewModel/form_validator_provider.dart';
+import 'package:lingopanda/viewModel/future_provider.dart';
 import 'package:provider/provider.dart';
 
 class NewScreen extends StatelessWidget {

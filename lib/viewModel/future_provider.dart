@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:pingolearn/model/api_status_model.dart';
-import 'package:pingolearn/utils/config.dart';
+import 'package:lingopanda/model/api_status_model.dart';
+import 'package:lingopanda/utils/config.dart';
 import 'package:provider/provider.dart';
 
 class CustomFutureNotifier<T extends Object?> extends ChangeNotifier {

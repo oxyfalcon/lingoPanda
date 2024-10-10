@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pingolearn/model/api_status_model.dart';
-import 'package:pingolearn/view/pages/login.dart';
-import 'package:pingolearn/viewModel/future_provider.dart';
+import 'package:lingopanda/model/api_status_model.dart';
+import 'package:lingopanda/view/pages/login.dart';
+import 'package:lingopanda/viewModel/future_provider.dart';
 import 'package:provider/provider.dart';
 
 class SignoutButton extends StatelessWidget {

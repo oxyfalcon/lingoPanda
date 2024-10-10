@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:pingolearn/utils/config.dart';
+import 'package:lingopanda/utils/config.dart';
 
 class ApiInterceptor {
   static Dio dio = Dio(BaseOptions(

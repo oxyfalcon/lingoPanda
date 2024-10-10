@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pingolearn/model/api_status_model.dart';
-import 'package:pingolearn/view/pages/new_screen.dart';
-import 'package:pingolearn/view/viewUtils/app_button.dart';
-import 'package:pingolearn/view/viewUtils/customForm/custom_form_widget.dart';
-import 'package:pingolearn/viewModel/future_provider.dart';
+import 'package:lingopanda/model/api_status_model.dart';
+import 'package:lingopanda/view/pages/new_screen.dart';
+import 'package:lingopanda/view/viewUtils/app_button.dart';
+import 'package:lingopanda/view/viewUtils/customForm/custom_form_widget.dart';
+import 'package:lingopanda/viewModel/future_provider.dart';
 import 'package:provider/provider.dart';
 
 class SignupButton extends StatelessWidget {

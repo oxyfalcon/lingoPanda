@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pingolearn/utils/config.dart';
-import 'package:pingolearn/utils/theme/theme.dart';
-import 'package:pingolearn/view/pages/login.dart';
+import 'package:lingopanda/utils/config.dart';
+import 'package:lingopanda/utils/theme/theme.dart';
+import 'package:lingopanda/view/pages/login.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

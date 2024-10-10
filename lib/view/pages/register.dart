@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pingolearn/model/api/api_service.dart';
-import 'package:pingolearn/utils/extension.dart';
-import 'package:pingolearn/utils/validator.dart';
-import 'package:pingolearn/view/viewUtils/back_to_login_button.dart';
-import 'package:pingolearn/view/viewUtils/customForm/custom_form_widget.dart';
-import 'package:pingolearn/view/viewUtils/customForm/custom_text_field.dart';
-import 'package:pingolearn/view/viewUtils/news_app_bar.dart';
-import 'package:pingolearn/view/viewUtils/signup_button.dart';
-import 'package:pingolearn/viewModel/future_provider.dart';
+import 'package:lingopanda/model/api/api_service.dart';
+import 'package:lingopanda/utils/extension.dart';
+import 'package:lingopanda/utils/validator.dart';
+import 'package:lingopanda/view/viewUtils/back_to_login_button.dart';
+import 'package:lingopanda/view/viewUtils/customForm/custom_form_widget.dart';
+import 'package:lingopanda/view/viewUtils/customForm/custom_text_field.dart';
+import 'package:lingopanda/view/viewUtils/news_app_bar.dart';
+import 'package:lingopanda/view/viewUtils/signup_button.dart';
+import 'package:lingopanda/viewModel/future_provider.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});

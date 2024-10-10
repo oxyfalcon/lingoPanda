@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pingolearn/view/viewUtils/custom_shape.dart';
+import 'package:lingopanda/view/viewUtils/custom_shape.dart';
 
 class AppButton extends StatelessWidget {
   const AppButton({super.key, required this.onPressed, required this.child});

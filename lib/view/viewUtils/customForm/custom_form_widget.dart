@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pingolearn/viewModel/form_validator_provider.dart';
+import 'package:lingopanda/viewModel/form_validator_provider.dart';
 import 'package:provider/provider.dart';
 
 class CustomForm extends StatelessWidget {

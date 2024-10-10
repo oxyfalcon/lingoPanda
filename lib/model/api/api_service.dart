@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:pingolearn/model/api/api_interceptor.dart';
-import 'package:pingolearn/model/news_model.dart';
-import 'package:pingolearn/utils/config.dart';
-import 'package:pingolearn/utils/extension.dart';
+import 'package:lingopanda/model/api/api_interceptor.dart';
+import 'package:lingopanda/model/news_model.dart';
+import 'package:lingopanda/utils/config.dart';
+import 'package:lingopanda/utils/extension.dart';
 
 class ApiService {
   static Future<List<NewsModel>?> getNews(String countryCode) async {
