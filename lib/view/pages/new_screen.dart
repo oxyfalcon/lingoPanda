@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -7,8 +6,8 @@ import 'package:pingolearn/model/api/api_service.dart';
 import 'package:pingolearn/model/api_status_model.dart';
 import 'package:pingolearn/model/news_model.dart';
 import 'package:pingolearn/utils/config.dart';
-import 'package:pingolearn/view/pages/login.dart';
 import 'package:pingolearn/view/viewUtils/news_card.dart';
+import 'package:pingolearn/view/viewUtils/signout_button.dart';
 import 'package:pingolearn/viewModel/form_validator_provider.dart';
 import 'package:pingolearn/viewModel/future_provider.dart';
 import 'package:provider/provider.dart';
@@ -130,37 +129,7 @@ class _NewsListState extends State<NewsList> {
                                 .labelLarge
                                 ?.copyWith(fontWeight: FontWeight.w700),
                           ),
-                          CustomFutureProvider<void>(
-                              futureCallback: () =>
-                                  FirebaseAuth.instance.signOut(),
-                              builder: (context, child) {
-                                return Consumer<CustomFutureNotifier<void>>(
-                                    builder: (context, ref, child) {
-                                  return (ref.asyncValue.status ==
-                                          ApiStatusEnum.loading)
-                                      ? const CircularProgressIndicator
-                                          .adaptive()
-                                      : IconButton(
-                                          icon: const Icon(Icons.logout),
-                                          onPressed: () async {
-                                            await context
-                                                .read<
-                                                    CustomFutureNotifier<
-                                                        void>>()
-                                                .callFuture(
-                                                    successMessage:
-                                                        "Logged out");
-                                            if (context.mounted) {
-                                              Navigator.pushReplacement(
-                                                  context,
-                                                  MaterialPageRoute(
-                                                      builder: (context) =>
-                                                          const LoginScreen()));
-                                            }
-                                          },
-                                        );
-                                });
-                              }),
+                          const SignoutButton(),
                         ],
                       ),
                     ),
